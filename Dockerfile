@@ -2,6 +2,10 @@ FROM python:2-alpine
 MAINTAINER ulif
 
 RUN apk --update add trac \
+    python2 \
+    python2-dev \
+    py-subversion \
+    subversion \
     apache2 \
     apache2-mod-wsgi
 
