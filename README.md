@@ -7,4 +7,8 @@ htaccess files.
 
 Build the image:
 
-  $ docker build -t trac .
+    $ docker build -t trac .
+
+Start up a container using the image:
+
+    $ docker run --name trac --rm -p 8080:80 -v $PWD/data/trac/:/trac -v $PWD/data/apache2/trac.conf:/etc/apache2/conf.d/trac.conf trac
