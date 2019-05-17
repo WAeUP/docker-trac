@@ -7,6 +7,7 @@ RUN apk --update add trac \
     py-subversion \
     subversion \
     apache2 \
+    apache2-utils \
     apache2-mod-wsgi
 
 VOLUME ["/trac"]
