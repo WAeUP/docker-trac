@@ -1,4 +1,4 @@
-FROM python:2-alpine
+FROM alpine
 MAINTAINER ulif
 
 RUN apk --update add trac \
