@@ -5,6 +5,8 @@ RUN apk --update add trac \
     python2 \
     python2-dev \
     py-subversion \
+    py-babel \
+    py-tz \
     subversion \
     apache2 \
     apache2-utils \
